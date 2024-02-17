@@ -5,7 +5,7 @@
 /**
  * main - This function assigns a random number to variable n
  * Return: always (0)
- **/
+ */
 
 int main(void)
 {

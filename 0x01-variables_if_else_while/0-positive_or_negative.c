@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - A program that will assign a random code to variable n each time it is executed
- * Return (0)
+ * main - A program that will assign a random code to variable n
+ * Return: aAlways (0)
  */
 
 int main(void)
@@ -13,7 +13,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-        if (n > 0 )
+	if (n > 0)
 		printf("%d is positive\n", n);
 	else if (n == 0)
 		printf("%d is zero\n", n);
